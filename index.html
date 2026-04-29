@@ -68,13 +68,11 @@
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
-      display: flex;
-      justify-content: center;
     }
 
     .app-wrap {
       width: 100%;
-      max-width: 720px;
+      max-width: 100%;
       background: var(--bg);
       min-height: 100vh;
       display: flex;
@@ -851,7 +849,6 @@
           <div class="app-sub">Your Indian Health Companion</div>
         </div>
       </div>
-      <div class="header-badge">🇮🇳 Indian Focus</div>
     </div>
     <div class="header-stats">
       <div class="hstat">
@@ -1114,16 +1111,22 @@
 
   </div>
 
+  <!-- ═══ FOOTER ═══ -->
+  <div style="width:100%;background:var(--surface);border-top:1px solid var(--border);padding:16px 20px;text-align:center;margin-top:auto;">
+    <div style="font-size:13px;color:var(--muted);line-height:1.6;">
+      🌿 <strong style="color:var(--green);">Swasthya Saathi</strong> — For informational purposes only. Always consult a qualified doctor for medical advice.
+    </div>
+    <div style="font-size:12px;color:var(--muted-2);margin-top:4px;">
+      Made with ❤️ for India's health
+    </div>
+  </div>
+
 </div><!-- /app-wrap -->
 
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
-<!-- Footer -->
-<div class="app-footer" style="max-width:720px;margin:0 auto;">
-  🌿 Swasthya Saathi — For informational purposes only. Always consult a qualified doctor for medical advice.<br>
-  Made with ❤️ for India's health
-</div>
+
 
 <script>
 /* ═══════════════════════════════════════════════════════════════
